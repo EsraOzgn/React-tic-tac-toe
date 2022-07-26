@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(165, 196, 196);
+  color:rgb(13, 13, 13);
+}
+
+main{
+  width: 300px;
+  margin: 50px auto 0;
+}
+
+div.board{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 355px;
+  justify-content: center;
+  margin: 32px auto 64px auto;
+}
+
+div.square{
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .square:hover{
+  cursor: pointer;
+  background-color: rgb(59, 183, 245);
+  color: #fff;
+}
+
+
+.result {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(59, 183, 245);
+  margin: -200% 200%;
+}
